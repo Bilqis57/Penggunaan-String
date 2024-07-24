@@ -1,0 +1,99 @@
+//#include <iostream>
+//using namespace std;
+//
+//int main(){
+//	string nama_lengkap= "Bilqis Nazwa Azzahra";
+//	string tempat_tanggal_lahir= "Samarinda, 15 November 2007";
+//	
+//	cout<<"nama_lengkap=" << nama_lengkap << endl;
+//	cout<<"tempat_tanggal_lahir=" << tempat_tanggal_lahir << endl;
+//
+//	
+//}
+
+//#include <iostream>
+//using namespace std;
+//
+//int main(){
+//    int nisn = 78672671;
+//    int sisa_bagi = nisn / 4;
+//     
+//    cout << "----------------------" << endl;
+//    cout << "----    SOAL 2    ----" << endl;
+//    cout << "----------------------" << endl;
+//    cout << "Masukkan nisn mu: " << nisn << endl;
+//    
+//    if (sisa_bagi == 0){
+//        cout << "kerjakan soal 3a" << endl;
+//    }
+//    else if (sisa_bagi == 1){
+//        cout << "kerjakan soal 3b" << endl;
+//    }
+//    else if (sisa_bagi == 2){
+//        cout << "kerjakan soal 3c"<< endl;
+//    }
+//    else {
+//            cout << "kerjakan soal 3d"<< endl;
+//    }
+//}
+//#include <iostream>
+//using namespace std;
+//
+//int main(){
+//    float  NilaiS1,NilaiS2,NilaiS3,NilaiS4,keseluruhan,rata_rata;
+//    NilaiS1=90;
+//    NilaiS2=98;
+//    NilaiS3=95;
+//    NilaiS4=100;
+//    keseluruhan=NilaiS1+NilaiS2+NilaiS3+NilaiS4;
+//    rata_rata= keseluruhan/4;
+//    cout<<"Hasil Nilai Rata Rata Nya Adalah = "<< rata_rata<<endl;
+//    if (rata_rata>=80){
+//        cout<<"Nilai Anda Baik";
+//    }
+//    else if (rata_rata<=79 && rata_rata>=60){
+//        cout<<"Nilai Anda Cukup";
+//    }
+//    else{
+//        cout<<"Nilai Anda Kurang";
+//    }
+
+//#include <iostream>
+//#include <cstdlib> //mengandung fungsi random
+//
+//using namespace std;
+//int main (){
+//	for (int i=0; i <10; i++) {
+//		cout << rand() %6 << endl;
+//	}
+//	cin.get();
+//	return 0;
+//}
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    float  NilaiS1,NilaiS2,NilaiS3,NilaiS4,keseluruhan,rata_rata;
+    string ratarata1,ratarata2,ratarata3;
+    ratarata1="Baik";
+    ratarata2="Cukup";
+    ratarata3="Kurang";
+    NilaiS1=90;
+    NilaiS2=98;
+    NilaiS3=95;
+    NilaiS4=100;
+    keseluruhan=NilaiS1+NilaiS2+NilaiS3+NilaiS4;
+    rata_rata= keseluruhan/4;
+    cout<<"Hasil Nilai Rata Rata Nya Adalah = "<< rata_rata<<endl;
+    if (rata_rata>=80){
+        cout<<"Nilai Anda: "<< ratarata1 <<endl;
+    }
+    else if (rata_rata<=79 && rata_rata>=60){
+        cout<<"Nilai Anda: "<< ratarata2 << endl;
+    }
+    else{
+        cout<<"Nilai Anda: "    << ratarata3 <<endl;
+    }
+}
+    
